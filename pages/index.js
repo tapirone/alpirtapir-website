@@ -5,7 +5,7 @@ const END_DATE = new Date("2025-06-30T23:59:59Z").getTime();
 const WALLET_RECEIVER = "5ra5JPQwtwS8kWxLgDxXZBeFWNJGppdLX4psjDygWD2n";
 const RATE = 5000000;
 const TARGET_SOL = 200;
-const CURRENT_SOL = 72.5;
+const CURRENT_SOL = 5;
 
 export default function Presale() {
   const [walletConnected, setWalletConnected] = useState(false);
